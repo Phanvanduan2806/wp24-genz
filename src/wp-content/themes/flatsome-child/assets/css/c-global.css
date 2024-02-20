@@ -1,0 +1,96 @@
+:root {
+  --main-font: 'Noto Sans', sans-serif;
+}
+
+body {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-size: 16px;
+  color: #2e548c;
+}
+
+.nav>li>a {
+  font-weight: 500;
+  font-style: normal;
+  font-family: var(--main-font);
+  font-size: 16px;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--main-font);
+}
+
+/* breadcrumb */
+.breadcrumb-item {
+  color: #2e548c;
+}
+
+/* c-title
+.c-title,
+.c-title .section-title,
+.c-title span {
+  border: none;
+  margin-bottom: unset;
+}
+
+.c-title span,
+.c-title {
+  color: #fff;
+  font-size: 45px;
+  font-weight: 700;
+  margin-right: unset;
+} */
+
+.heading h2 {
+  font-size: 45px;
+  background: rgb(14, 165, 234);
+  background: linear-gradient(90deg, rgba(14, 165, 234, 1) 0%, rgba(11, 209, 209, 1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  margin: unset;
+  display: inline;
+}
+
+h1 {
+  font-size: 64px;
+  background: rgb(14, 165, 234);
+  background: linear-gradient(90deg, rgba(14, 165, 234, 1) 0%, rgba(11, 209, 209, 1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+  margin: unset;
+  display: inline;
+}
+
+.heading_sidebar h3 {
+  font-size: 20px;
+  background: rgb(14, 165, 234);
+  background: linear-gradient(90deg, rgba(14, 165, 234, 1) 0%, rgba(11, 209, 209, 1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  margin: unset;
+  /* display: inline; */
+  padding-bottom: 0.5rem;
+}
+
+.heading_sidebar h3::before {
+  height: 3px;
+  width: 96px;
+  content: "";
+  background-color: var(--genz-color-brand-1, #0EA5EA);
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}

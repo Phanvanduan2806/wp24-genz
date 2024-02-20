@@ -1,0 +1,106 @@
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width: 1100px) {
+  .c-services .c-service-item {
+    padding: 50px 50px 20px;
+  }
+  .c-partner .c-partner-slider {
+    padding-left: 30px;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+}
+
+@media (max-width: 850px) {
+  .c-services .c-service-item {
+    padding: 30px 30px 0;
+  }
+  .c-price .c-price-item .bullet-item {
+    margin-left: 0;
+  }
+  .c-price .c-price-item .items {
+    padding-top: 50px;
+  }
+  .c-price .c-price-item .tag {
+    top: 20px;
+  }
+  .c-testimonials .slider .flickity-button.previous {
+    left: 46%;
+  }
+  .c-testimonials .slider .flickity-button.next {
+    left: 54%;
+  }
+  .c-testimonials .slider .flickity-button {
+    bottom: -225px;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 849px) {
+  .c-contact-top iframe {
+    height: 350px;
+  }
+  .c-contact-top .text p {
+    text-align: justify;
+  }
+  .c-contact-bot .wpcf7-form textarea {
+    height: 200px;
+  }
+  .c-contact-bot .wpcf7 p {
+    flex-direction: column;
+    gap: 0;
+  }
+  .c-testimonials .slider .flickity-button.previous {
+    left: 44%;
+  }
+  .c-testimonials .slider .flickity-button.next {
+    left: 53%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .c-price .large-4 {
+    flex-basis: 100% !important;
+    max-width: 100% !important;
+  }
+}
+@media only screen and (max-width: 650px) {
+    .c-testimonials .slider .flickity-button.previous {
+        left: 42%;
+      }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 549px) {
+  .c-cate-title {
+    font-size: 36px;
+  }
+  .c-latest-projects .from_the_blog_excerpt {
+    font-size: 16px;
+  }
+  .c-latest-projects .post-title {
+    font-size: 22px;
+  }
+  .c-contact-top iframe {
+    height: 300px;
+  }
+  .c-contact-bot .wpcf7-form textarea {
+    height: 150px;
+  }
+  .c-price .c-price-item .items {
+    padding-top: 25px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .c-contact-top iframe {
+    height: 200px;
+  }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+}
